@@ -7,7 +7,7 @@ export const Card = styled.div`
   margin-right: auto;
   padding: 20px 40px;
   width: 600px;
-  background-color: rgb(192, 181, 181);
+  background: linear-gradient(32deg, #dce35b 39%, #45b649 61%);
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 `;
 

@@ -8,6 +8,7 @@ export const Vote = ({ options, leaveVote }) => {
       {item}
     </BtnVote>
   ));
+
   return <Section>{optionElement}</Section>;
 };
 

@@ -7,14 +7,17 @@ export const BtnVote = styled.button`
   padding: 10px 25px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #fff;
-  color: chocolate;
+  background-color: coral;
+  color: black;
 
   transition: transform 250ms linear;
   &:hover {
     transform: scale(1.2);
-    background-color: coral;
-    color: darkslategray;
+    background: ${({ children }) =>
+      (children === 'good' && '#489b47') ||
+      (children === 'neutral' && '#78137f') ||
+      (children === 'bad' && '#FF4005')};
+    color: white;
   }
 `;
 

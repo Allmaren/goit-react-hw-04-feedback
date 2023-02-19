@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { Section, BtnVote } from './FeedbackOptions.styled.js';
-// import Button from './Button';
 
 export const Vote = ({ options, leaveVote }) => {
   const optionElement = options.map((item, index, style) => (

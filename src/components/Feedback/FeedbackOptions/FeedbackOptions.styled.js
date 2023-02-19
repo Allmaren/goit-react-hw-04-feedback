@@ -7,7 +7,7 @@ export const BtnVote = styled.button`
   padding: 10px 25px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: coral;
+  background-color: #f9f6f5;
   color: black;
 
   transition: transform 250ms linear;
